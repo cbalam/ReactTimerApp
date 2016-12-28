@@ -30,4 +30,4 @@ export default class CountdownForm extends React.Component {
 
 CountdownForm.propTypes = {
   onSetCountdown: React.PropTypes.func
-}
+};
