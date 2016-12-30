@@ -6,7 +6,7 @@ export default class CountdownForm extends React.Component {
     this.onSubmit = this.onSubmit.bind(this);
   }
 
-  onSubmit (e) {
+  onSubmit(e) {
     e.preventDefault();
     let strSeconds = this.refs.seconds.value;
 
@@ -16,7 +16,7 @@ export default class CountdownForm extends React.Component {
     }
   }
 
-  render () {
+  render() {
     return (
       <div>
         <form ref="form" onSubmit={this.onSubmit} className="countdown-form">
