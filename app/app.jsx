@@ -5,12 +5,11 @@ import Main from "Main";
 import Timer from "Timer";
 import Countdown from "Countdown";
 
-//Laod foundation
-require('style!css!foundation-sites/dist/foundation.min.css')
+//Load foundation
 $(document).foundation();
 
 //App css
-require('style!css!sass!applicationStyles')
+require('style!css!sass!applicationStyles');
 
 ReactDOM.render(
   <Router history={hashHistory}>
