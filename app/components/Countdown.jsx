@@ -32,7 +32,6 @@ export default class Countdown extends React.Component{
   }
 
   componentWillUnmount() {
-    console.log('ComponendDidUnmount');
     clearInterval(this.timer);
     this.timer = undefined;
   }
